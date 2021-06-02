@@ -4,7 +4,9 @@ import { Link } from 'gatsby';
 const Header = () => (
   <header className="py-4">
     <div className="w-5/6 mx-auto flex items-center justify-between">
-      <h1 className="font-bold text-xl text-blue-500">Joshue Abance</h1>
+      <Link to="/">
+        <h1 className="font-bold text-xl text-blue-500">Joshue Abance</h1>
+      </Link>
 
       <ul className="flex items-center">
         <li className="mx-8">

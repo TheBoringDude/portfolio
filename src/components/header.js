@@ -1,10 +1,10 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
+import { Link } from 'gatsby';
 
 const Header = () => (
   <header className="py-4">
     <div className="w-5/6 mx-auto flex items-center justify-between">
-      <h1 className="font-black text-xl text-blue-500">Joshue Abance</h1>
+      <h1 className="font-bold text-xl text-blue-500">Joshue Abance</h1>
 
       <ul className="flex items-center">
         <li className="mx-8">
@@ -20,6 +20,6 @@ const Header = () => (
       </ul>
     </div>
   </header>
-)
+);
 
-export default Header
+export default Header;

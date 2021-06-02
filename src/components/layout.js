@@ -7,23 +7,12 @@
 
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { useStaticQuery, graphql } from 'gatsby';
 
 import Header from './header';
 import Seo from './seo';
 import Footer from './footer';
 
 const Layout = ({ children, title, description }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
-
   return (
     <>
       <Seo title={title} description={description} />

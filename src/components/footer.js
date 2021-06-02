@@ -1,9 +1,11 @@
-import React from "react"
+import React from 'react';
 
 const Footer = () => (
   <footer className="p-4 text-center">
-    <p>&copy; {new Date().getFullYear()} - Joshue Abance (TheBoringDude)</p>
+    <p className="text-sm text-gray-800 tracking-wide">
+      &copy; {new Date().getFullYear()} - Joshue Abance (TheBoringDude)
+    </p>
   </footer>
-)
+);
 
-export default Footer
+export default Footer;

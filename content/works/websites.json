@@ -1,0 +1,32 @@
+[
+  {
+    "name": "cryptopups.cf",
+    "description": "Official Website for World of CryptoPups",
+    "repo": "https://github.com/TheBoringDude/cryptopups",
+    "website": "https://www.cryptopups.cf/"
+  },
+  {
+    "name": "Iris Designs",
+    "description": "The production team for your perfect business needs",
+    "repo": "https://github.com/TheBoringDude/iris-designs",
+    "website": "https://notiriscreations.cf/"
+  },
+  {
+    "name": "Live Long",
+    "description": "Website for Live Long Cafe",
+    "repo": "https://github.com/TheBoringDude/livelong-new",
+    "website": "https://livelong.vercel.app"
+  },
+  {
+    "name": "drp.cf",
+    "description": "A concept of a Dropping Area Website",
+    "repo": "https://github.com/TheBoringDude/drp.cf",
+    "website": "https://drp-cf.vercel.app"
+  },
+  {
+    "name": "Covid19-PH",
+    "description": "Simple website showing the statistics of the covid cases in the Philippines",
+    "repo": "https://github.com/TheBoringDude/covid19ph-api",
+    "website": "https://covid19ph-api.vercel.app/"
+  }
+]

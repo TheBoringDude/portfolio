@@ -1,0 +1,50 @@
+[
+  {
+    "name": "lcl-paste",
+    "description": "Simple Paste [Bin] Manager App",
+    "repo": "https://github.com/TheBoringDude/lcl-paste",
+    "website": "https://lcl-paste.vercel.app"
+  },
+  {
+    "name": "phurma",
+    "description": "Integrate forms with an API.",
+    "repo": "https://github.com/TheBoringDude/phurma",
+    "website": "https://phurma.vercel.app"
+  },
+  {
+    "name": "grue",
+    "description": "A Simple URL Shortener",
+    "repo": "https://github.com/TheBoringDude/grue",
+    "website": "https://grue.cf"
+  },
+  {
+    "name": "better-grue",
+    "description": "NextJs implementation of Grue",
+    "repo": "https://github.com/TheBoringDude/better-grue",
+    "website": "https://grue.cf"
+  },
+  {
+    "name": "quaker",
+    "description": "(WIP) A simple forms-maker web app",
+    "repo": "https://github.com/TheBoringDude/quaker",
+    "website": "https://quaker.vercel.app"
+  },
+  {
+    "name": "zeta",
+    "description": "A simple web app library for creating collections.",
+    "repo": "https://github.com/TheBoringDude/zeta",
+    "website": "https://zeta-library.herokuapp.com"
+  },
+  {
+    "name": "lame",
+    "description": "Just a collection of simple web apps.",
+    "repo": "https://github.com/TheBoringDude/lame",
+    "website": "https://lame.vercel.app"
+  },
+  {
+    "name": "am-i-indexable",
+    "description": "Check if website is searchable on search engines",
+    "repo": "https://github.com/TheBoringDude/am-i-indexable",
+    "website": "https://am-i-indexable.vercel.app"
+  }
+]

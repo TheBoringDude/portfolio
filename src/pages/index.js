@@ -1,10 +1,8 @@
-import React from 'react';
-import { Link } from 'gatsby';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'gatsby';
+import React from 'react';
 import Layout from '../components/layout';
 import { SocialIcons } from '../components/social-icons';
 
@@ -22,7 +20,7 @@ const IndexPage = () => (
         <Link
           title="Send me a message"
           to="/contact-me"
-          className="py-2 px-6 border rounded-lg text-gray-600 mx-1 inline-flex items-center hover:text-blue-500 hover:border-blue-500 duration-300"
+          className="py-2 px-6 border border-gray-300 rounded-lg text-gray-600 mx-1 inline-flex items-center hover:text-blue-500 hover:border-blue-500 duration-300"
         >
           <FontAwesomeIcon icon={faEnvelope} className="text-base mr-2" />
           send me a message
@@ -30,7 +28,7 @@ const IndexPage = () => (
         <Link
           title="See my works"
           to="/works"
-          className="py-2 px-6 border rounded-lg text-gray-600 mx-1 inline-flex items-center hover:bg-blue-500 hover:border-blue-500 hover:text-white duration-300"
+          className="py-2 px-6 border border-gray-300 rounded-lg text-gray-600 mx-1 inline-flex items-center hover:bg-blue-500 hover:border-blue-500 hover:text-white duration-300"
         >
           <FontAwesomeIcon icon={faCode} className="text-base mr-2" />
           my works

@@ -5,7 +5,7 @@ import React from 'react';
 
 const WorksContainer = ({ name, description, repo, website }) => {
   return (
-    <div className="relative border border-gray-300 rounded-lg p-6 group">
+    <div className="relative border border-gray-300 rounded-lg p-6 group hover:scale-105 transform duration-300">
       <a
         href={website ? website : repo}
         target="_blank"
@@ -29,7 +29,7 @@ const WorksContainer = ({ name, description, repo, website }) => {
           target="_blank"
           rel="noreferrer"
           title="Visit project repository"
-          className="bg-gray-500 hover:bg-blue-500 px-6 py-2 rounded-lg text-white"
+          className="bg-gray-300 hover:bg-blue-500 px-6 py-2 rounded-lg text-gray-600"
         >
           <FontAwesomeIcon icon={faGithub} /> repo
         </a>

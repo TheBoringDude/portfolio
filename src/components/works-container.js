@@ -6,6 +6,11 @@ import React from 'react';
 const WorksContainer = ({ name, description, repo, website }) => {
   return (
     <div className="relative border border-gray-300 rounded-lg p-6 group hover:scale-105 transform duration-300">
+      {/* TODO: this needs a re-work! (implement gatsby-plugin-image) */}
+      <img src={`screenshots/${name}.jpeg`} alt={name} className="h-56 w-full object-cover object-top" />
+
+      <hr className="my-2" />
+
       <a
         href={website ? website : repo}
         target="_blank"
@@ -19,7 +24,7 @@ const WorksContainer = ({ name, description, repo, website }) => {
         </svg>
       </a>
 
-      <h3 className="text-2xl font-black tracking-wide text-blue-500">{name}</h3>
+      <h3 className="text-2xl font-black tracking-wide text-blue-500 leading-loose">{name}</h3>
 
       <p className="line-clamp-2 my-1 text-gray-700 lg:text-lg tracking-wide">{description}</p>
 

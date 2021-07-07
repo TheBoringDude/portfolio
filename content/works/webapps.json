@@ -39,7 +39,7 @@
     "name": "lame",
     "description": "Just a collection of simple web apps.",
     "repo": "https://github.com/TheBoringDude/lame",
-    "website": "https://lame.vercel.app"
+    "website": "https://lame-app.vercel.app"
   },
   {
     "name": "am-i-indexable",

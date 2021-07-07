@@ -3,7 +3,7 @@ import os
 from urllib.parse import urlencode
 from urllib.request import urlretrieve
 
-ACCESS_KEY = ""
+ACCESS_KEY = os.getenv("ACCESS_KEY")
 
 all_contents = ["websites", "webapps"]
 
@@ -14,7 +14,7 @@ for i in all_contents:
     data = json.load(f)
 
     for j in data:
-        image_name = f"content/screenshots/{j['name']}.jpeg"
+        image_name = f"static/screenshots/{j['name']}.jpeg"
 
         if os.path.isfile(image_name):
             continue

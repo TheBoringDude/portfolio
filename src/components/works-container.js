@@ -15,7 +15,7 @@ const WorksContainer = ({ name, description, repo, website }) => {
         href={website ? website : repo}
         target="_blank"
         rel="noreferrer"
-        title="Visit project website"
+        title={`Visit ${website}`}
         className="absolute -top-1 -right-1 bg-white border p-1 rounded-lg text-blue-300 hover:text-blue-500"
       >
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -24,7 +24,7 @@ const WorksContainer = ({ name, description, repo, website }) => {
         </svg>
       </a>
 
-      <h3 className="text-2xl font-black tracking-wide text-blue-500 leading-loose">{name}</h3>
+      <h3 className="text-2xl underline font-black tracking-wide text-blue-500 leading-loose">{name}</h3>
 
       <p className="line-clamp-2 my-1 text-gray-700 lg:text-lg tracking-wide">{description}</p>
 

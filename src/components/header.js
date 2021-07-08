@@ -1,11 +1,15 @@
-import React from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
+import React from 'react';
 
 const Header = () => (
   <header className="py-4">
     <div className="w-5/6 mx-auto flex items-center justify-between">
       <Link to="/">
-        <h1 className="font-bold text-xl text-blue-500">Joshue Abance</h1>
+        <div className="inline-flex items-center">
+          <StaticImage src="../images/user.jpg" className="object-top object-cover rounded-full h-12 w-12" />
+          <h1 className="font-bold text-xl text-blue-500 ml-2">Joshue Abance</h1>
+        </div>
       </Link>
 
       <ul className="flex items-center">

@@ -27,7 +27,7 @@ const WorksContainer = ({ name, description, repo, website }) => {
 
       <Heading as="h3">{name}</Heading>
 
-      <p className="line-clamp-2 my-1 text-gray-700 lg:text-lg tracking-wide">{description}</p>
+      <p className="line-clamp-2 my-1 text-gray-600 lg:text-lg tracking-wide">{description}</p>
 
       <div className="mt-4">
         <a
@@ -35,7 +35,7 @@ const WorksContainer = ({ name, description, repo, website }) => {
           target="_blank"
           rel="noreferrer"
           title="Visit project repository"
-          className="bg-gray-300 hover:bg-blue-500 px-6 py-2 rounded-lg text-gray-600"
+          className="bg-gray-300 hover:bg-blue-500 px-6 py-2 rounded-lg text-gray-600 hover:text-gray-100"
         >
           <FontAwesomeIcon icon={faGithub} /> repo
         </a>

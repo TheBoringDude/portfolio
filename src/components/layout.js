@@ -24,7 +24,7 @@ const Layout = ({ children, title, description }) => {
           primary: 'hover:text-blue-500'
         },
         headings: {
-          h3: 'text-2xl underline font-black tracking-wide text-blue-500 leading-loose'
+          h3: 'text-3xl underline font-black tracking-wide text-blue-500 leading-loose'
         }
       }}
     >

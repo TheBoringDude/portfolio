@@ -1,5 +1,6 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Heading } from 'empty-ui';
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -24,7 +25,7 @@ const WorksContainer = ({ name, description, repo, website }) => {
         </svg>
       </a>
 
-      <h3 className="text-2xl underline font-black tracking-wide text-blue-500 leading-loose">{name}</h3>
+      <Heading as="h3">{name}</Heading>
 
       <p className="line-clamp-2 my-1 text-gray-700 lg:text-lg tracking-wide">{description}</p>
 

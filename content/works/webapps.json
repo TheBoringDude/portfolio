@@ -3,13 +3,13 @@
     "name": "lcl-paste",
     "description": "Simple Paste [Bin] Manager App",
     "repo": "https://github.com/TheBoringDude/lcl-paste",
-    "website": "https://lcl-paste.vercel.app"
+    "website": "https://www.lcl-paste.ml/"
   },
   {
     "name": "phurma",
     "description": "Integrate forms with an API.",
     "repo": "https://github.com/TheBoringDude/phurma",
-    "website": "https://phurma.vercel.app"
+    "website": "https://www.phurma.ml/"
   },
   {
     "name": "grue",

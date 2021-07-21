@@ -15,7 +15,7 @@
     "name": "grue",
     "description": "A Simple URL Shortener",
     "repo": "https://github.com/TheBoringDude/grue",
-    "website": "https://grue.cf"
+    "website": "https://gruecf.vercel.app/"
   },
   {
     "name": "better-grue",
